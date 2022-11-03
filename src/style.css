@@ -1,9 +1,9 @@
 /* styles go here */
-.form-field {
-  display: block;
-  margin: 10px 0;
-}
-
 .group {
   margin-bottom: 20px;
+}
+
+.form-field {
+  margin: 10px 0;
+  display: block;
 }
