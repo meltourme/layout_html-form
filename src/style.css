@@ -1,9 +1,9 @@
 /* styles go here */
-.group {
-  margin-bottom: 20px;
+.form-field:not(:last-child) {
+  margin-bottom: 10px;
+  display: block;
 }
 
-.form-field {
-  margin: 10px 0;
-  display: block;
+.group {
+  margin-bottom: 20px;
 }
