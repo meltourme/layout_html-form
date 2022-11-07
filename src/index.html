@@ -8,10 +8,7 @@
     >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
-    <link
-      rel="stylesheet"
-      href="./style.css"
-    >
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <form
@@ -20,8 +17,8 @@
     >
       <fieldset class="group">
         <legend>Personal information</legend>
-        <label class="form-field"
-          >Surname:
+        <label class="form-field">
+          Surname:
           <input
             type="text"
             name="surname"
@@ -29,8 +26,8 @@
             autocomplete="off"
           >
         </label>
-        <label class="form-field"
-          >Name:
+        <label class="form-field">
+          Name:
           <input
             type="text"
             name="name"
@@ -38,8 +35,8 @@
             autocomplete="off"
           >
         </label>
-        <label class="form-field"
-          >How old are You?
+        <label class="form-field">
+          How old are You?
           <input
             type="number"
             value="12"
@@ -50,8 +47,8 @@
             autocomplete="off"
           >
         </label>
-        <label class="form-field"
-          >Full date of birth:
+        <label class="form-field">
+          Full date of birth:
           <input
             minlength="1"
             maxlength="100"
@@ -61,8 +58,8 @@
             autocomplete="off"
           >
         </label>
-        <label class="form-field"
-          >I accept the term of the agreement:
+        <label class="form-field">
+          I accept the term of the agreement:
           <input
             type="checkbox"
             name="remember"
@@ -72,8 +69,8 @@
       </fieldset>
       <fieldset class="group">
         <legend>Registration</legend>
-        <label class="form-field"
-          >E-mail:
+        <label class="form-field">
+          E-mail:
           <input
             type="email"
             name="email"
@@ -82,8 +79,8 @@
             autocomplete="off"
           >
         </label>
-        <label class="form-field"
-          >Password:
+        <label class="form-field">
+          Password:
           <input
             type="text"
             name="password"
@@ -96,18 +93,22 @@
         <legend>An interesting fact about you</legend>
         <label class="form-field">
           Do you love cats?
-          <input
-            type="radio"
-            name="cats"
-            value="yes"
-          >
-          Yes
-          <input
-            type="radio"
-            name="cats"
-            value="no"
-          >
-          No
+          <label>
+            <input
+              type="radio"
+              name="sex"
+              value="m"
+            >
+            Yes
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="sex"
+              value="f"
+            >
+            No
+          </label>
         </label>
 
         <label class="form-field">
